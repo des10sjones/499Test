@@ -1,0 +1,85 @@
+/* src/components/FacultyDashboard/FacultyDashboard.css */
+
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    background-color: #004b33;
+    color: #ffffff;
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .sidebar li {
+    margin: 15px 0;
+  }
+  
+  .sidebar li button {
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 10px 0;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .sidebar li button:hover {
+    background-color: #006d4c;
+    padding-left: 10px;
+  }
+  
+  .logout {
+    margin-top: auto;
+    font-size: 1rem;
+    color: #ff6666;
+    cursor: pointer;
+  }
+  
+  /* Main content area */
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f4f6f9;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #004b33;
+    margin-bottom: 20px;
+  }
+  
+  /* Section styles */
+  .section {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .section h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
